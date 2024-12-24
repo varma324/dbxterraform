@@ -19,7 +19,11 @@ terraform validate
 
 terraform init -upgrade
 
-Terraform with plan inputs per env:
+# Terraform with plan inputs per env:
 terraform plan -var-file="dev.tfvars"
 
+# Terraform apply changes using config file
 terraform apply -var-file="dev.tfvars"
+
+# deletes the terraform resources
+terraform destroy
