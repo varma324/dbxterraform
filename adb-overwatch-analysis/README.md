@@ -12,11 +12,14 @@ This module deploys the following Databricks [python notebooks](./notebooks) on 
 |`overwatch_ws_name`|Overwatch existing workspace name|string||yes|
 
 
-## Terraform sample commands:
-terraform init
+# Terraform sample commands:
 
+# Terraform file initatization
+terraform init
+# Terraform validation command
 terraform validate
 
+# Terraform initalization upgrade
 terraform init -upgrade
 
 # Terraform with plan inputs per env:
