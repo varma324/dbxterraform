@@ -16,6 +16,6 @@ provider "azurerm" {
 }
 
 provider "databricks" {
-  host  = "https://adb-3510475013252491.11.azuredatabricks.net"
-  token = "dapifb84297d915bf56e3d70661ccf0b988e-3"
+  host  = "https://adb-.azuredatabricks.net"
+  token = "XXXXX"
 }
